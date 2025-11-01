@@ -187,7 +187,7 @@ const deleteLocalTodo = (todo)=>{
     let todoIndex = todos.indexOf(todoText);
     todos.splice(todoIndex, 1);
     localStorage.setItem("todos", JSON.stringify(todos))
-    console.log(todoIndex);
+    //console.log(todoIndex);
    // console.log(todoText.children[0].innerHTML);
 
 }

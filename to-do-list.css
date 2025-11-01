@@ -20,6 +20,7 @@ body{
     align-items: center;
     flex-direction: row;
     margin-top: 5rem;
+ 
 }
 
 #task{
@@ -29,7 +30,6 @@ body{
     border-radius: 5px;
     margin:1rem;
     width: 100%;
-    max-width: 200px;
     font-size: 1.2rem;
     color: black;
     background-color: white;
@@ -53,10 +53,6 @@ body{
 }
 .todolist{
     width:100%;
- /*   display: flex;
-    justify-content: center;
-    flex-direction:column;
-    align-items: center;*/
     margin:2rem;
     padding:1rem;
     max-width: 450px;
@@ -103,26 +99,31 @@ body{
 @media (max-width: 768px){
 
     .todolist {
-        width: 70%;
-        max-width: 70%;
-        margin-left:100px;
+        max-width: 90%;
+       margin-left:5%;
+
     }
 
     #task{
-        min-width: 150px;
+        min-width: 250px;
+        font-size:15px;
+       
+        
     }
     #add{
         width: 160px;
+        margin-right:150px;
     
     }
     .timer-container{
             position:absolute;
-            left:10rem;
+            left:20%;
+            font-size:20px;
     }
     h1{
-        min-width:150px;
-        font-size:25px;
-        margin-left:230px;
+        max-width:40%;
+        font-size:20px;
+        margin-left:150px;
     }
 
 }
